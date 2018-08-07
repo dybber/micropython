@@ -39,4 +39,6 @@ esp.osdebug(None)
 #import webrepl
 #webrepl.start()
 """)
+    with open("main.py", "w") as f:
+        f.write("# Put your main script here.")
     return vfs
